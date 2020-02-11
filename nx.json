@@ -1,0 +1,31 @@
+{
+  "npmScope": "idea",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "recipe": {
+      "tags": []
+    },
+    "recipe-e2e": {
+      "tags": [],
+      "implicitDependencies": ["recipe"]
+    },
+    "apps-server": {
+      "tags": []
+    },
+    "idea-server": {
+      "tags": []
+    },
+    "server": {
+      "tags": []
+    }
+  }
+}
